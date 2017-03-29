@@ -1,0 +1,252 @@
+/*------------------------------------Inicio de Navegación------------------------------------------------*/
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+/*------------------------------------Fin de Navegación------------------------------------------------*/
+/*------------------------------------Inicio de Seccion Banner------------------------------------------------*/
+.banner {
+  background: url(../img/parallax-1.jpg) no-repeat center center;
+  background-size: cover;
+  height: 480px; }
+
+logoBanner{
+    
+}
+  .banner .logoTea {
+    margin-top: 100px; }
+
+  .banner .icono {
+    margin-top: 60px; }
+
+    .banner .icono .icono {
+      color: white; }
+
+  .banner .navbar-brand {
+    float: right;
+    padding-left: 5px; }
+
+  .banner nav {
+    width: 100%;
+    background: #ffffff;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #dddddd; }
+
+  .banner .hamburger {
+    background: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 45px;
+    padding: 5px 15px 0px 15px;
+    color: #999;
+    border: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000; }
+
+  .banner .cross {
+    background: none;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    padding: 7px 15px 0px 15px;
+    color: #999;
+    border: 0;
+    font-size: 3em;
+    line-height: 65px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000; }
+
+  .banner .navegacion {
+    z-index: 1000000;
+    font-weight: bold;
+    font-size: 0.8em;
+    width: 100%;
+    background: #f1f1f1;
+    position: absolute;
+    text-align: center;
+    font-size: 12px; }
+
+  .banner .navegacion ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none; }
+
+  .banner .navegacion li {
+    display: block;
+    padding: 15px 0 15px 0;
+    border-bottom: #dddddd 1px solid; }
+
+  .banner .navegacion li:hover {
+    display: block;
+    background: #ffffff;
+    padding: 15px 0 15px 0;
+    border-bottom: #dddddd 1px solid; }
+
+  .banner {
+    text-decoration: none;
+    color: #666; }
+/*------------------------------------Fin de Seccion Banner------------------------------------------------*/
+/*------------------------------------Inicio de Seccion Nuestra Pasión------------------------------------------------*/
+.nuestra-pasion {
+  background: url(../img/parallax-3.jpg) no-repeat center center;
+  background-size: cover;
+  height: 480px;
+  color: white; }
+
+.nuestra-pasion .texto {
+    color: white;
+    margin-top: 80px; }
+/*------------------------------------Inicio de Seccion Tipos de té------------------------------------------------*/
+.tipos-te {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+/*------------------------------------Fin de Seccion Tipos de té------------------------------------------------*/
+/*------------------------------------Inicio de Seccion Infusiones------------------------------------------------*/
+.infusiones #imagenA {
+  background: url(../img/min-video-1-2.jpg) no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  color: white; }
+
+.infusiones #imagenB {
+  background: url(../img/min-video-3.jpg) no-repeat center center;
+  background-size: cover;
+  height: 200px;
+  color: white; }
+
+.infusiones #imagenC {
+  background: url(../img/min-video-5.jpg) no-repeat center center;
+  background-size: cover;
+  height: 200px;
+  color: white; }
+
+.infusiones #imagenD {
+  background: url(../img/min-video-6.jpg) no-repeat center center;
+  background-size: cover;
+  height: 200px;
+  color: white; }
+/*------------------------------------Fin de Seccion Infusiones------------------------------------------------*/
+/*------------------------------------Inicio de Seccion Preguntas------------------------------------------------*/
+.preguntas {
+  background: url(../img/parallax-2.jpg) no-repeat center center;
+  background-size: cover;
+  height: 480px; }
+
+  .preguntas .texto {
+    color: white;
+    margin-top: 200px; }
+/*------------------------------------Fin de Seccion Infusiones------------------------------------------------*/
+/*------------------------------------Inicio de Seccion Instrucciones------------------------------------------------*/
+.instrucciones .texto {
+  padding: 100px 75px;
+  height: 350px; }
+
+.instrucciones .blocks {
+  height: 350px; }
+
+.instrucciones .imagen1 {
+  background-color: #f0e7ae;
+  height: 350px;
+  padding-top: 100px; }
+
+.instrucciones .imagen2 {
+  background-color: #8ec641;
+  height: 350px;
+  padding-top: 100px; }
+
+.instrucciones .imagen3 {
+  background-color: #ed9a9d;
+  height: 350px;
+  padding-top: 100px; }
+/*------------------------------------Fin de Seccion Instrucciones------------------------------------------------*/
+/*------------------------------------Inicio de Seccion Campos------------------------------------------------*/
+.campos {
+  background: url(../img/parallax-4.jpg) no-repeat center center;
+  background-size: cover;
+  height: 480px; }
+
+  .campos .texto {
+    color: white;
+    font-size: 48px;
+    margin-top: 200px; }
+/*------------------------------------Fin de Seccion Campos------------------------------------------------*/
+/*------------------------------------Inicio de Sección Carrusel------------------------------------------------*/
+.carrousel {
+  height: 170px; }
+
+  .carrousel .carousel-inner {
+    height: 470px; }
+/*------------------------------------Fin de Sección Carrusel------------------------------------------------*/
+/*------------------------------------Inicio de Seccion Tea Lovers------------------------------------------------*/
+.tea-lovers .lovers {
+  margin-top: 100px;
+  margin-right: 32px; }
+
+.tea-lovers .paquete {
+  margin-top: 82px; }
+/*------------------------------------Fin de Seccion Tea Lovers------------------------------------------------*/
+/*------------------------------------Inicio de Footers------------------------------------------------*/
+.footer {
+  background-color: #262626;
+  margin-top: 16px; }
+
+  .footer .encanto {
+    color: white;
+    padding-top: 16px;
+    margin-left: 6px; }
+/*------------------------------------Inicio de Footers------------------------------------------------*/
+/*------------------------------------Inicio de Responsive Media Queries------------------------------------------------*/
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+/*------------------------------------Inicio de Responsive Media Queries------------------------------------------------*/
